@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Menu } from './Components/Menu'
 import { Container } from 'react-bootstrap'
 import { Footer } from './components/Footer'
+import { Outlet } from 'react-router-dom'
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <>
     <Container>
     <Menu/>
+    <Outlet/>
     <Footer/>
     </Container>
      

@@ -5,8 +5,7 @@ import { Footer } from '../components/Footer'
 export const Contato = () => {
   return (
     <div>
-        <Menu/>
-        <Footer/>
+        contato
     </div>
   )
 }
